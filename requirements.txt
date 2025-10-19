@@ -6,3 +6,4 @@ numpy
 python-telegram-bot==13.15
 sqlalchemy
 requests
+imghdr
