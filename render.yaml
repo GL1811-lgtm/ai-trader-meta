@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: ai-trader-meta-v2
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python meta_controller.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
